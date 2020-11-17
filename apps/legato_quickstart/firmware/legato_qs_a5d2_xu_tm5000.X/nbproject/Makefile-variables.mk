@@ -1,0 +1,13 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# lcdc_rgba8888_mxt_a5d2_wvga configuration
+CND_ARTIFACT_DIR_lcdc_rgba8888_mxt_a5d2_wvga=dist/lcdc_rgba8888_mxt_a5d2_wvga/production
+CND_ARTIFACT_NAME_lcdc_rgba8888_mxt_a5d2_wvga=legato_qs_a5d2_xu_tm5000.X.production.hex
+CND_ARTIFACT_PATH_lcdc_rgba8888_mxt_a5d2_wvga=dist/lcdc_rgba8888_mxt_a5d2_wvga/production/legato_qs_a5d2_xu_tm5000.X.production.hex
+CND_PACKAGE_DIR_lcdc_rgba8888_mxt_a5d2_wvga=${CND_DISTDIR}/lcdc_rgba8888_mxt_a5d2_wvga/package
+CND_PACKAGE_NAME_lcdc_rgba8888_mxt_a5d2_wvga=legatoqsa5d2xutm5000.x.tar
+CND_PACKAGE_PATH_lcdc_rgba8888_mxt_a5d2_wvga=${CND_DISTDIR}/lcdc_rgba8888_mxt_a5d2_wvga/package/legatoqsa5d2xutm5000.x.tar
