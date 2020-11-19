@@ -35,9 +35,9 @@ The parent directory for this application is gfx/apps/legato\_quickstart. To bui
 
 The following table lists configuration properties:
 
-|Project Name|BSP Used|Graphics Template Used|Description|
-|:-----------|:-------|:---------------------|:----------|
-|legato\_qs\_a5d2\_ek\_tm5000.IAR|SAM a5d2 Evaluation Kit|Legato Graphics w/ PDA TM5000 Display|SAM 9x60 Evaluation Kit with RGBA8888 GFX Interface and 5" WVGA PCAP Touch display|
+| Project Name  | BSP Used |Graphics Template Used | Description |
+|---------------| ---------|---------------| ---------|
+| legato_qs_a5d2_xu_tm5000.X | SAM A5D2 Xplained Ultra | Graphics w/ PDA TM5000 Display | GFX on SAM A5D2 Xplained Ultra Board and PDA TM5000 WVGA Display |
 
 > \*\*\_NOTE:\_\*\* This application may contain custom code that is marked by the comments // START OF CUSTOM CODE ... and // END OF CUSTOM CODE. When using the MPLAB Harmony Configurator to regenerate the application code, use the "ALL" merging strategy and do not remove or replace the custom code.
 
@@ -48,19 +48,21 @@ The final setup should be:
 
 Configure the hardware as follows:
 
--   Connect the ribbon cable from the display to the J16 connector on the back of the SAM 9x60 Evaluation Kit board.
+Connect the ribbon cable from the display to the J16 connector on the back of the SAM A5D2 Xplained Ultra board.
 
 ![](../../../../docs/html/sam_a5d2_sk_display_conf1.png)
-
--   Power up the board by connecting the power adapter to power connector or a powered USB cable to the USB port on the SAM 9x60 Evaluation Kit board.
-
 
 Running the Demonstration
 -------------------------
 
 When power-on is successful, the demonstration will display a similar menu to that shown in the following figure (different configurations may have slight variation in the screen aspect ratio):
 
-![](../../../../docs/html/legato_quickstart_wqvga_run.png)
+![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run1.png)
+
+When Make changes. Generate. Run. is touched, the button will toggle with each individual touch.
+
+![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run2.png)
+
 
 * * * * *
 
