@@ -31,13 +31,13 @@ Adding the **SAM A5D2 Xplained Ultra Board** and **Legato Graphics w/ PDA TM5000
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato\_quickstart. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_quickstart/firmware/legato\_qs\_a5d2\_ek\_tm5000.X project file.
+The parent directory for this application is gfx/apps/legato\_quickstart. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_quickstart/firmware/legato\_qs\_a5d2\_ek\_tm5000.IAR project file.
 
 The following table lists configuration properties:
 
 | Project Name  | BSP Used |Graphics Template Used | Description |
 |---------------| ---------|---------------| ---------|
-| legato_qs_a5d2_xu_tm5000.X | SAM A5D2 Xplained Ultra | Graphics w/ PDA TM5000 Display | GFX on SAM A5D2 Xplained Ultra Board and PDA TM5000 WVGA Display |
+| legato_qs_a5d2_xu_tm5000.IAR | SAM A5D2 Xplained Ultra | Graphics w/ PDA TM5000 Display | GFX on SAM A5D2 Xplained Ultra Board and PDA TM5000 WVGA Display |
 
 > \*\*\_NOTE:\_\*\* This application may contain custom code that is marked by the comments // START OF CUSTOM CODE ... and // END OF CUSTOM CODE. When using the MPLAB Harmony Configurator to regenerate the application code, use the "ALL" merging strategy and do not remove or replace the custom code.
 
@@ -57,11 +57,11 @@ Running the Demonstration
 
 When power-on is successful, the demonstration will display a similar menu to that shown in the following figure (different configurations may have slight variation in the screen aspect ratio):
 
-![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run1.png)
+![](../../../../docs/html/legato_quickstart_wqvga_run.png)
 
 When Make changes. Generate. Run. is touched, the button will toggle with each individual touch.
 
-![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run2.png)
+![](../../../../docs/html/legato_quickstart_wqvga_run.png)
 
 
 * * * * *
