@@ -31,7 +31,7 @@ Adding the **SAM A5D2 Xplained Ultra Board** and **Legato Graphics w/ PDA TM5000
 Building the Application
 ------------------------
 
-The parent directory for this application is gfx/apps/legato\_quickstart. To build this application, use MPLAB X IDE to open the gfx/apps/legato\_quickstart/firmware/legato\_qs\_a5d2\_ek\_tm5000.X project file.
+The parent directory for this application is apps/legato\_quickstart. To build this application, use MPLAB X IDE to open apps/legato\_quickstart/firmware/legato\_qs\_a5d2\_ek\_tm5000.X project file.
 
 The following table lists configuration properties:
 
@@ -44,25 +44,20 @@ The following table lists configuration properties:
 Configuring the Hardware
 ------------------------
 
+Connect the ribbon cable from the display to the LCD connector on the SAM A5D2 Xplained Ultra board.
+
 The final setup should be:
 
-Configure the hardware as follows:
-
-Connect the ribbon cable from the display to the J16 connector on the back of the SAM A5D2 Xplained Ultra board.
-
-![](../../../../docs/html/sam_a5d2_sk_display_conf1.png)
+![](../../../../docs/html/hardware_config_a5d2_tm5000.png)
 
 Running the Demonstration
 -------------------------
 
 When power-on is successful, the demonstration will display a similar menu to that shown in the following figure (different configurations may have slight variation in the screen aspect ratio):
 
-![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run1.png)
+![](../../../../docs/html/legato_quickstart.png)
 
 When Make changes. Generate. Run. is touched, the button will toggle with each individual touch.
-
-![](../../../../docs/html/legato_qs_e70_xu_tm4301b_run2.png)
-
 
 * * * * *
 
