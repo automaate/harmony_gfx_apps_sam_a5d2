@@ -57,7 +57,7 @@ When power-on is successful, the demonstration will display a similar menu to th
 
 ![](../../../../docs/html/legato_quickstart.png)
 
-When Make changes. Generate. Run. is touched, the button will toggle with each individual touch.
+When Make changes. Generate. Run. is touched, the Quick Start button will toggle with each individual touch.
 
 * * * * *
 
