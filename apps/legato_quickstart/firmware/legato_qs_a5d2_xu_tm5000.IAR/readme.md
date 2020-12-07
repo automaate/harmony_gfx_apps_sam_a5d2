@@ -48,7 +48,7 @@ Connect the ribbon cable from the display to the LCD connector on the SAM A5D2 X
 
 The final setup should be:
 
-![](../../../../docs/html/hardware_config_a5d2_tm5000.png)
+![](../../../../docs/html/hardware_config_a5d2_tm5000.jpg)
 
 Running the Demonstration
 -------------------------
